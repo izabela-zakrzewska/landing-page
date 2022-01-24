@@ -23,5 +23,8 @@ const Offers = ({ offers }) => {
     </section>
   );
 };
+/* Lista ofert powinna być generowana na podstawie tablicy w JS i funkcji .map
 
+Pojedynczy box oferty powinien być osobnym komponentem, który przyjmuje parametr 
+"isNew", ustawiający napis "nowość" oraz czerwoną kropkę zgodnie z jego wartością */
 export default Offers;
