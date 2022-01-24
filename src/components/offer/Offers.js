@@ -1,4 +1,7 @@
-const SectionBis = () => {
+import React from "react";
+import OffersBox from "./OffersBox";
+
+const Offers = ({ offers }) => {
   return (
     <section className="boxes">
       <h2 id="offer">Czym zajmuje się nasza firma?</h2>
@@ -10,6 +13,7 @@ const SectionBis = () => {
             (nowość)
           </div>
         </div>
+        /* {offers.map(() => return;)} */
         <div className="item">Usługa 2</div>
         <div className="item">Usługa 3</div>
         <div className="item">Usługa 4</div>
@@ -20,4 +24,4 @@ const SectionBis = () => {
   );
 };
 
-export default SectionBis;
+export default Offers;

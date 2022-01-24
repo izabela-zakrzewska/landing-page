@@ -1,4 +1,4 @@
-const Section = () => {
+const Employees = () => {
   return (
     <section>
       <div className="container-3">
@@ -28,4 +28,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default Employees;
