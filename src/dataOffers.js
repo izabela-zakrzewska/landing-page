@@ -2,6 +2,7 @@ export const offersData = [
   {
     id: 1,
     offer: "Usługa 1",
+    isNew: true,
   },
   {
     id: 2,

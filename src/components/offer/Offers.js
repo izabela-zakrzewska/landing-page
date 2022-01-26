@@ -6,8 +6,8 @@ const Offers = ({ offers }) => {
     <section className="boxes">
       <h2 id="offer">Czym zajmuje się nasza firma?</h2>
       <div className="container-4">
-        {offers.map((item) => (
-          <OffersBox item={item} />
+        {offers.map((item, index) => (
+          <OffersBox key={index} item={item} />
         ))}
       </div>
     </section>
